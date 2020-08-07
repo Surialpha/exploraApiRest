@@ -16,4 +16,5 @@
 <p>Para iniciar el server el modo desarrollo: npm run test</p>
 <p>Para iniciar el server el modo producción: npm run start</p>
 
+NOTA: Aveces lo obvio se obvia, una vez clonado el proyecto ejecutar el comando npm i para descargar las dependencias.
 
