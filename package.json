@@ -1,0 +1,32 @@
+{
+  "name": "explora_api",
+  "version": "1.0.0",
+  "description": "Explora api is a simple api rest that provide access to users, who are using it, the posibility to do a CRUD, the principal topics of this api is  \"Experiencias interactivas\" by Explora Park offer. (This is a skills test providen by Explora Park Software team)",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surialpha/exploraApiRest.git"
+  },
+  "author": "Surialpha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Surialpha/exploraApiRest/issues"
+  },
+  "homepage": "https://github.com/Surialpha/exploraApiRest#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "node-fetch": "^2.6.0",
+    "unsplash-js": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
