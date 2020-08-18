@@ -1,6 +1,6 @@
 {
     "env": {
-        "MONGO_ATLAS_PW": "UeqCo1rT6j9oNsHr",
+        "MONGO_ATLAS_PW": "Enter Password here",
         "PORT": "3000"
     }
 
