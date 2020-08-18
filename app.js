@@ -5,7 +5,7 @@ const bodyparser = require('body-parser');
 const morgan = require('morgan');
 
 //*Conección a base de datos mongo ATLAS, no compartir las credenciles de esta*/
-mongoose.connect('mongodb+srv://surialpha:' + process.env.MONGO_ATLAS_PW + '@surialphascluster.qnrva.mongodb.net/<dbname>?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://USERNAME:' + process.env.MONGO_ATLAS_PW + '@CLUSTER.qnrva.mongodb.net/<dbname>?retryWrites=true&w=majority');
 mongoose.Promise = global.Promise;
 
 const experienciasRoutes = require('./api/routes/experienciasRoute');
